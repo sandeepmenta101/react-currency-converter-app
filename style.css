@@ -1,0 +1,33 @@
+h1, p {
+  font-family: Lato;
+  text-align: center;
+}
+
+body{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+h1{
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.input{
+  border: 1px solid #333;
+  border-radius: .3rem;
+  width: 7em;
+  padding: .25rem;
+}
+.select{
+  margin-left: .5rem;
+}
+.equals{
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto;
+  display: table;
+}
